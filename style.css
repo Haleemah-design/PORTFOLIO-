@@ -1730,7 +1730,9 @@ footer {
 
     }
 
-
+.cv-btn{
+    display: flex;
+}
     .nav-links {
 
         position: absolute;
