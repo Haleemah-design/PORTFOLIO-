@@ -1210,13 +1210,15 @@ background: transparent;
 .velora {
 
     background:url(vel.png);
+    
 }
 
 
 .aurelia {
 
     background:url(au.jpeg);
-
+ background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

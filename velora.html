@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vélora| Taiwo Obamuyiwa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                T<span>.</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <a href="#contact" class="nav-btn">
+                Let's Talk
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-btn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+    
+    <main class="container" style="max-width: 800px; margin: 100px auto; padding: 0 20px;">
+
+        <a href="index.html#projects" style="display:inline-block; margin-bottom: 30px;">&larr; Back to Projects</a>
+
+        <h1>Vélora — Travel & Accommodation Booking Platform</h1>
+        <p><strong>Role:</strong> Full-Stack Web Developer &nbsp; | &nbsp; <strong>Tools:</strong> HTML5 . CSS3 . JavaScript . jQuery </p>
+
+        <img src="vel.png" alt="Vélora" style="width:70%; border-radius: 12px; margin: 30px 0;">
+
+        <h2>The Problem</h2>
+        <p>Travelers need a fast, visual way to browse properties, evaluate details, and book — with hosts needing an equally simple way to list their space</p>
+
+        <h2>Process</h2>
+        <ul>
+            <li>Planned the core user flows: browsing/search → property detail page → booking → host listing submission </li>
+            <li>Built responsive layouts mobile-first, so property photo galleries and booking forms work cleanly from phone to desktop</li>
+            <li>Implemented interactive components with JavaScript/jQuery — photo galleries, wishlist toggling, review display, filtering</li>
+            <li>Structured the property-hosting form to capture listing details in a way that's simple for hosts but produces consistent, well-formatted data on the front end</li>
+
+        </ul>
+
+        <h2>Key Decisions</h2>
+        <ul>
+            <li>Used a card-based grid for listings instead of a table layout, since it scans faster and translates directly to mobile</li>
+            <li>Built the photo gallery as a lightweight custom component rather than a heavy plugin, to keep page load fast.</li>
+
+        </ul>
+
+        <h2>Technical highlights</h2>
+        <ul>
+            <li>Responsive, cross-browser-compatible layout across all core pages</li>
+            <li>Clean, semantic HTML structure for maintainability.</li>
+
+        </ul>
+
+        <h2>Outcome</h2>
+        <p>A fully responsive, Airbnb-style booking platform — covering the complete browse-to-book user journey.</p>
+
+        <a href="https://haleemah-design.github.io/VELORA/" target="_blank" class="btn primary-btn">
+            View Live Site
+        </a>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Taiwo.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueueGo — Case Study | Taiwo Obamuyiwa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                T<span>.</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <a href="#contact" class="nav-btn">
+                Let's Talk
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-btn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+    
+    <main class="container" style="max-width: 800px; margin: 100px auto; padding: 0 20px;">
+
+        <a href="index.html#projects" style="display:inline-block; margin-bottom: 30px;">&larr; Back to Projects</a>
+
+        <h1>QueueGo — Live Queue Management App</h1>
+        <p><strong>Role:</strong> UI/UX Designer &nbsp; | &nbsp; <strong>Tools:</strong> Figma </p>
+
+        <img src="queugo.png" alt="QueueGo interface" style="width:70%; border-radius: 12px; margin: 30px 0;">
+
+        <h2>The Problem</h2>
+        <p>People waste time waiting in physical lines with no visibility into wait time or their position in the queue — for banks, clinics, government offices, etc</p>
+
+        <h2>Process</h2>
+        <ul>
+            <li>Mapped the user flow from joining a queue to getting served, identifying key friction points (uncertainty, no way to leave and come back without losing your spot)</li>
+            <li>Wireframed core screens: join queue, live position tracker, notifications, admin/staff view</li>
+            <li>Designed the high-fidelity UI with a focus on visual hierarchy — the "your position" number is the dominant element on screen, since that's the one thing users check obsessively</li>
+            <li>Applied accessibility and responsive design principles so the app works on any device size</li>
+
+        </ul>
+
+        <h2>Key Decisions</h2>
+        <ul>
+            <li>Used color-coded status (green/yellow/red) instead of numbers alone, since users skim rather than read while waiting.</li>
+            <li>Designed a persistent notification banner rather than requiring users to keep the app open.</li>
+
+        </ul>
+
+        <h2>Outcome</h2>
+        <p>A complete, responsive queue management interface — covering both the end-user and admin experience.</p>
+
+        <a href="https://www.behance.net/gallery/254166081/QueueGo-Live-Queue-Management-App" target="_blank" class="btn primary-btn">
+            View Full Gallery on Behance
+        </a>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Taiwo.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
