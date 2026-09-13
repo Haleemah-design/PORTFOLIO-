@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àjò — Case Study | Taiwo Obamuyiwa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="index.html#home" class="logo">
+                T<span>.</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#projects" class="active">Projects</a>
+                <a href="index.html#contact">Contact</a>
+
+            </div>
+
+            <a href="index.html#contact" class="nav-btn">
+                Let's Talk
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-btn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+    <main class="container" style="max-width: 800px; margin: 100px auto; padding: 0 20px;">
+
+        <a href="index.html#projects" style="display:inline-block; margin-bottom: 30px;"> Back to Projects</a>
+
+        <h1>Àjò — Plan. Prepare. Japa.</h1>
+        <p><strong>Role:</strong> UI/UX Designer . Front-End Developer  <br> <strong>Tools:</strong> Figma, HTML, CSS, JavaScript</p>
+
+        <img src="ajo.png" alt="Àjò relocation planning app interface" style="width:100%; border-radius: 12px; margin: 30px 0;">
+
+        <h2>The Problem</h2>
+        <p>Relocation is exciting, but the process can be overwhelming. For many Nigerians, the dream of moving abroad is real, but the journey comes with a lot of uncertainty. Visa requirements, documents, exams, accommodation, finances, and deadlines are often spread across different platforms, making the process difficult to manage. Without a clear plan, it's easy to miss important steps, lose track of deadlines, overspend, or just feel unsure about what to do next.</p>
+
+        <h2>The Solution</h2>
+        <p>Àjò brings the essential parts of the relocation process into one simple, personalized platform — from visa documentation and budgeting to IELTS/TOEFL prep, accommodation, and departure timelines. The goal was to make the japa process feel less overwhelming by giving users a clear plan, useful tools, and a way to track their progress from preparation to departure.</p>
+
+        <h2>Process</h2>
+        <ul>
+            <li>Mapped the full relocation journey — from choosing a destination and purpose, to documents, exams, budgeting, and visa tracking — to understand where users get stuck</li>
+            <li>Designed a guided onboarding flow that personalizes the experience around each user's destination, purpose, and timeline</li>
+            <li>Wireframed core screens: dashboard, roadmap, documents, budget planner, and exam prep tracker</li>
+            <li>Built a full design system — color palette, typography, icons, and reusable components — to keep the experience consistent across every screen</li>
+            <li>Designed the high-fidelity UI in Figma, then developed the front end in HTML, CSS, and JavaScript</li>
+        </ul>
+
+        <h2>Key Decisions</h2>
+        <ul>
+            <li>Chose to surface one priority task at a time on the dashboard, rather than showing every category at once — relocation is already stressful, and the design's job is to reduce cognitive load, not add to it.</li>
+            <li>Used a calming, warm color palette with colorful category cards, so the app feels reassuring rather than clinical while still staying visually engaging.</li>
+            <li>Designed the Roadmap screen around numbered steps with clear status tags (Completed / In Progress / Not Started), so users always know exactly where they stand and what to do next.</li>
+        </ul>
+
+        <h2>Outcome</h2>
+        <p>A complete relocation-planning platform spanning onboarding, dashboard, personalized roadmap, document tracker, budget planner, exam prep, accommodation search, and profile settings — designed end-to-end in Figma and built in code, demonstrating both UI/UX design and front-end development skills on a single, cohesive product.</p>
+
+        <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top: 20px;">
+
+            <a href="https://www.behance.net/gallery/255389451/Ajo-Plan-Prepare-Japa" target="_blank" class="btn primary-btn">
+                View Full Case Study on Behance
+            </a>
+
+            <a href="https://haleemah-design.github.io/ajo-relocation/" target="_blank" class="btn primary-btn">
+                View Live Site
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Taiwo.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
